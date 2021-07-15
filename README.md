@@ -1,4 +1,4 @@
-# Rregression_performance_app
+# Regression_performance_app
 Application uses Random Forest Regressor(with original hyperparameters)
 # Reproducing this web app
 To recreate this web app on your own computer, do the following.
