@@ -12,7 +12,7 @@ from sklearn.metrics import r2_score, mean_squared_error
 def pred(df_train, df_test):
     X_train=df_train.iloc[:,:-1].values
     Y_train=df_train.iloc[:,-1].values
-    # x_train,x_test,y_train,y_test = train_test_split( X, Y, test_size=0.2,random_state=0)
+    
     X_test= df_test.iloc[:,:-1]
     Y_test =df_test.iloc[:,-1]
     
